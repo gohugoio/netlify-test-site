@@ -1,0 +1,3 @@
+baseURL = "https://hugo-netlify-test-site.netlify.app"
+
+disableKinds = ["page", "section", "taxonomy", "term"]
