@@ -1,2 +1,6 @@
-console.log('This is f2');
-document.writeln('This is f2');
+console.log(`This is ${getName()}`);
+document.writeln('This is ' + getName());
+
+function getName() {
+	return 'f2';
+}
