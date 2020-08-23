@@ -13,6 +13,14 @@
 
 <body>
     {{ block "main" . }}{{ end }}
+
+    <ul>
+        <li><a href="{{ $f1.RelPermalink }}">JS 1</a></li>
+        <li><a href="{{ $f2.RelPermalink }}">JS 2</a></li>
+        <li><a href="{{ $f3.Permalink }}">JS 3</a></li>
+        <li><a href="{{ $f4.Permalink }}">JS 4</a></li>
+
+    </ul>
 </body>
 
 </html>
